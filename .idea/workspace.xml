@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/screenshots/Screen Shot 2020-02-12 at 10.41.01 am.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_A.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Screen Shot 2020-02-12 at 10.41.46 am.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_B.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XgQ1mfSGxS2rJFqUWzffqXad39" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="" />
+      <created>1581465045126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581465045126</updated>
+      <workItem from="1581465048002" duration="723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="373" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1581465048324">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="373" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.836@0.23.1440.836" timestamp="1581465048324" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey":"ProjectName",
+    "ParameterValue": "Udacity-Lab-Three"
+  },
+  {
+    "ParameterKey":"StudentName",
+    "ParameterValue": "D.Milburn"
+  },
+  {
+    "ParameterKey":"PemKeyName",
+    "ParameterValue": "udacity"
+  }
+]
