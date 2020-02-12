@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/jekins-servers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-servers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/server-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete.sh" beforeDir="false" afterPath="$PROJECT_DIR$/delete.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+    <list default="true" id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="- Updates to files&#10;- Add Read me file">
+      <change afterPath="$PROJECT_DIR$/screenshots/1_Set_up_IAM_credentials_properly_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/1_Set_up_IAM_credentials_properly_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2_Launch_EC2_instance_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2_Launch_EC2_instance_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3_Jenkins_is_installed_and_running.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/4_Blue_Ocean_is_enabled.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Pipeline" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XgQ1mfSGxS2rJFqUWzffqXad39" />
@@ -61,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581465045126</updated>
-      <workItem from="1581465048002" duration="4469000" />
+      <workItem from="1581465048002" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric">
       <created>1581466460814</created>
@@ -70,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581466460814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Updates to files&#10;- Add Read me file">
+      <created>1581470546204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581470546204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,7 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric" />
+    <MESSAGE value="- Updates to files&#10;- Add Read me file" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Updates to files&#10;- Add Read me file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="218" y="39" key="CommitChangelistDialog2" timestamp="1581466460586">
