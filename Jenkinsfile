@@ -3,8 +3,8 @@ pipeline {
         stages {
             stage('Build') {
             steps{
-            sh 'echo "this is the frist step of the build"'
-            sh "'"
+            sh 'This is the first step of the build'
+            sh 'Finish Build'
              }
             }
         }
