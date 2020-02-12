@@ -7,14 +7,14 @@ pipeline {
                     sh 'echo "Finish Build"'
                      }
             }
-//             stage('Lint HTML'){
-//                 steps {
-//                     sh 'echo "Validating HTML mark up"'
-//                     retry(3){
-//                         sh 'tidy -q -e *.html'
-//                     }
-//                 }
-//             }
+            stage('Lint HTML'){
+                steps {
+                    sh 'echo "Validating HTML mark up"'
+                    retry(3){
+                        sh 'tidy -q -e *.html'
+                    }
+                }
+            }
         }
     post {
             always {
