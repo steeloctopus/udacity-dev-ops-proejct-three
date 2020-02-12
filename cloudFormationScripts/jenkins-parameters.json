@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey":"ProjectName",
-    "ParameterValue": "Udacity-Lab-Three"
+    "ParameterValue": "Udacity-Project-Three"
   },
   {
     "ParameterKey":"StudentName",
@@ -9,6 +9,6 @@
   },
   {
     "ParameterKey":"PemKeyName",
-    "ParameterValue": "udacity"
+    "ParameterValue": "udacity-jenkins"
   }
 ]

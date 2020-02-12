@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/screenshots/Screen Shot 2020-02-12 at 10.41.01 am.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_A.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screen Shot 2020-02-12 at 10.41.46 am.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/jekins-servers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-servers.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/server-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete.sh" beforeDir="false" afterPath="$PROJECT_DIR$/delete.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +61,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581465045126</updated>
-      <workItem from="1581465048002" duration="723000" />
+      <workItem from="1581465048002" duration="4469000" />
     </task>
+    <task id="LOCAL-00001" summary="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric">
+      <created>1581466460814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581466460814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="218" y="39" key="CommitChangelistDialog2" timestamp="1581466460586">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="218" y="39" key="CommitChangelistDialog2/0.23.1440.836@0.23.1440.836" timestamp="1581466460586" />
+    <state x="380" y="177" key="Vcs.Push.Dialog.v2" timestamp="1581466463861">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="380" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1581466463861" />
     <state x="373" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1581465048324">
       <screen x="0" y="23" width="1440" height="836" />
     </state>

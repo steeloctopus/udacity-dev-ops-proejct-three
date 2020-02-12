@@ -1,3 +1,4 @@
+export AWS_PROFILE=jenkins
 aws cloudformation create-stack \
   --stack-name $1 \
   --template-body file://$2 \

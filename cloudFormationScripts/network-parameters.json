@@ -1,11 +1,11 @@
 [
   {
     "ParameterKey":"ResourcePrefix",
-    "ParameterValue": "UL3"
+    "ParameterValue": "UP3"
   },
   {
     "ParameterKey":"ProjectName",
-    "ParameterValue": "Udacity-Lab-Three"
+    "ParameterValue": "Udacity-Project-Three"
   },
   {
     "ParameterKey":"StudentName",

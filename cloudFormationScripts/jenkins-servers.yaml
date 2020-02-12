@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: This is the setup for the server in udacity project two
+Description: This is the setup for the server in udacity project three
 Parameters:
 
   ProjectName:
@@ -50,7 +50,7 @@ Resources:
       Roles:
         - udacityCICDrole
 
-  JekinsHost:
+  JenkinsHost:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-07ebfd5b3428b6f4d # this AMI ID may not be available. Find a new base line Ubuntu image.
@@ -65,10 +65,7 @@ Resources:
           sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
           sudo apt-get update
           sudo apt-get install -y jenkins
-          sudo apt install tidy
-          sudo apt install docker.io
-          sudo usermod -aG docker jenkins
-          sudo systemctl restart jenkins
+          sudo apt install -y tidy
       NetworkInterfaces:
         - AssociatePublicIpAddress: "true"
           DeviceIndex: "0"
@@ -81,14 +78,19 @@ Resources:
         Ref: ProfileWithRolesForOurApp
       Tags:
         - Key: Name
-          Value: !Sub ${ProjectName} Jekins Host
+          Value: !Sub ${ProjectName} Jenkins Host
         - Key: ProjectName
           Value: !Ref ProjectName
         - Key: StudentName
           Value: !Ref StudentName
 Outputs:
-  JekinsHost:
-    Description: The load balancer URL
-    Value: !Join ["", ["http://", !GetAtt JekinsHost.PublicDnsName,":8080"]]
+  JenkinsHostURL:
+    Description: The Jenkins AWS URL
+    Value: !Join ["", ["http://", !GetAtt JenkinsHost.PublicDnsName,":8080"]]
     Export:
       Name: !Sub ${ProjectName}-DNS-NAME
+  JenkinsHostIP:
+    Description: The Jenkins AWS IP
+    Value: !Join ["", ["http://", !GetAtt JenkinsHost.PublicIp]]
+    Export:
+      Name: !Sub ${ProjectName}-IP
