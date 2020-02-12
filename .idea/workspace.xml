@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f754805-edf4-40d1-9bff-ce762f42fc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_0809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_pipeline" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/jekins-servers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-servers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/server-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFormationScripts/jenkins-parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete.sh" beforeDir="false" afterPath="$PROJECT_DIR$/delete.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Set_up_IAM_credentials_properly_B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/jenkins-parameters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/jenkins-servers.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/network-parameters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudFormationScripts/network.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -81,14 +84,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="- Upload Cloud Formation scripts that will create server infrastruture.&#10;- Add utility scripts for AWS CLI&#10;- Rename screenshots for rubric" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="218" y="39" key="CommitChangelistDialog2" timestamp="1581466460586">
+    <state x="399" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581471063059">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="218" y="39" key="CommitChangelistDialog2/0.23.1440.836@0.23.1440.836" timestamp="1581466460586" />
-    <state x="380" y="177" key="Vcs.Push.Dialog.v2" timestamp="1581466463861">
+    <state x="399" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.836@0.23.1440.836" timestamp="1581471063059" />
+    <state x="218" y="39" key="CommitChangelistDialog2" timestamp="1581470861487">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="380" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1581466463861" />
+    <state x="218" y="39" key="CommitChangelistDialog2/0.23.1440.836@0.23.1440.836" timestamp="1581470861487" />
+    <state x="380" y="177" key="Vcs.Push.Dialog.v2" timestamp="1581470863196">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="380" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1581470863196" />
     <state x="373" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1581465048324">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
